@@ -34,6 +34,7 @@ header .navbar{
     align-items: center;
     justify-content: space-between; /* spasi diantara menu dan logo*/
     position: fixed;
+    z-index: 9999;
 }
 
 nav{
@@ -134,6 +135,7 @@ video{
     width: 90%;
     margin: 0 auto; /* Pusatkan container */
     text-align: center;
+    z-index: -99;
 }
 
 .team .tittle{
